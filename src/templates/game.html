@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" content="{{ game_type }}">
+    <title>Markham Math</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+        window.jQuery ||
+            document.write("<script src=\"{{ url_for('static', filename='jquery-3.2.1.min.js') }}\">\x3C/script>")
+    </script>
+    <script src="{{ url_for('static', filename='activity.js') }}"></script>
+</head>
+<body id="body">
+<h1>Markham Math {{ game_type }}</h1>
+</body>
