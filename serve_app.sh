@@ -1,6 +1,6 @@
 ENVNAME=webapp
 WORKINGDIR=./
-APP_PATH=src/app:app
+APP_PATH=src.app:app
 SERVICE_ADDRESS=0.0.0.0:8789
 NWORKERS=4
 
